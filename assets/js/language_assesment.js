@@ -1,4 +1,13 @@
-//state object
+const setHomePageText = (setup) => {
+  const testTitle = setup.labels.title;
+  const testNumberOfQuestions = setup.testNumberOfQuestions;
+  const intro = `نقدِّم لكم في لوك إن مينا ${testTitle} الذي يتضمن ${testNumberOfQuestions} سؤال (اختيار من متعدد) وعند الانتهاء من كل واحد يعمل الاختبار على تصحيح إجاباتكم الخاطئة، وفي حال إعادته مرة ثانية فإنه سيعرض أسئلة جديدة، وعند الوصول لنهايته يقدّم لكم نصائح عن تطوير لغتكم..
+  `
+  $("#test-title").html(testTitle);
+  $("#test-intro").html(intro);
+  $("#test-overview").fadeIn(400).slideDown();
+}
+
 const languageTestLogic = (setup, data) => {
 
   var state = {
@@ -119,7 +128,9 @@ const languageTestLogic = (setup, data) => {
     const perc = (state.lastRenderedQuestion - 10) / state.totalQuestions;
     state.percCompletion = perc * 100
   }
+
   //Render functions
+
 
   var renderMainDetails = function (state) {
     // var perc = state.lastRenderedQuestion - 10;
@@ -1309,3 +1320,5 @@ const languageTestLogic = (setup, data) => {
   })
 
 }
+
+

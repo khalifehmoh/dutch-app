@@ -32,8 +32,10 @@
 						isTimeLimitOn: true,
 						isWrongAnswersOn: true
 					},
-					feedbackText: `<a href="https://lookinmena.com/دليل-تعلّم-اللغة-الهولندية/" target="_blank">دليل تعلم اللغة الهولندية</a>`
+					feedbackText: `<a href="https://lookinmena.com/دليل-تعلّم-اللغة-الهولندية/" target="_blank">دليل تعلم اللغة الهولندية</a>`,
+					testNumberOfQuestions: 50
 				}
+				setHomePageText(setup);
 				languageTestLogic(setup, globalData)
 			}
 		});
@@ -68,23 +70,24 @@
 							<div class="col-sm-6">
 								<img class="img-main-image" src="https://lookinmena.com/wp-content/themes/lookinmena/assets/images/big_logo_test.png" alt="LookInMENA logo">
 							</div>
-							<div class="col-sm-6">
-							<h1 class="home-header prime-color">إختبار اللغة الهولندية</h1>
-								<h5 class="home-header-arabic-desc" style="direction: rtl;">المقدم من Look In MENA</h5>
-								<p class="home-header-arabic-desc" style="direction: rtl;">
-								</p>
-								<button type="submit" class="btn-test btn-asses-submit btn-english-start" disabled>
-									<span class="questions-loading">
-										<div class="lds-facebook">
-											<div></div>
-											<div></div>
-											<div></div>
-										</div>
-										انتظر قليلا ريثما نجهز لك الأسئلة...
-									</span>
-								</button>
+							<div  class="col-sm-6 ">
+								<div id="test-overview" style="display:none">
+									<h1 id="test-title" class="home-header prime-color"></h1>
+									<h5 class="home-header-arabic-desc" style="direction: rtl;">المقدم من Look In MENA</h5>
+									<p id="test-intro" class="home-header-arabic-desc" style="direction: rtl;">
+									</p>
+									<button type="submit" class="btn-test btn-asses-submit btn-english-start" disabled>
+										<span class="questions-loading">
+											<div class="lds-facebook">
+												<div></div>
+												<div></div>
+												<div></div>
+											</div>
+											انتظر قليلا ريثما نجهز لك الأسئلة...
+										</span>
+									</button>
+								</div>
 							</div>
-
 						</div>
 					</div>
 					</div>

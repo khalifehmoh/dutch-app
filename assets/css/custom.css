@@ -750,11 +750,6 @@ dl {
     margin-right: 0;
 }
 
-.btn i {
-    /* margin-right: 10px; */
-    /* margin-left: -5px; */
-}
-
 .btn-lg {
     padding: 9px 40px 10px 40px;
     font-size: 15px;
@@ -6610,10 +6605,6 @@ blockquote footer img {
     background-color: #002626;
 }
 
-.tp-leftarrow.custom {}
-
-.tp-rightarrow.custom {}
-
 /* BULLETS */
 
 .tp-bullets.custom .tp-bullet {
@@ -6939,7 +6930,6 @@ blockquote footer img {
 
 /* ROUNDED IMAGES CAROUSEL */
 
-.rounded-images-carousel {}
 
 .rounded-images-carousel .owl-stage-outer {
     padding: 40px 0;
@@ -7026,7 +7016,6 @@ blockquote footer img {
 
 /* WIDGET TEXT */
 
-.widget-text {}
 
 .widget-text div>*:last-child {
     margin-bottom: 0;
@@ -7034,7 +7023,6 @@ blockquote footer img {
 
 /* WIDGET SERACH */
 
-.widget-search {}
 
 .widget-search form {
     position: relative;
@@ -7082,7 +7070,6 @@ blockquote footer img {
 
 /* WIDGET CATEGORIES */
 
-.widget-categories {}
 
 .widget-categories ul {
     margin-bottom: 0;
@@ -7118,13 +7105,9 @@ blockquote footer img {
     color: #002626;
 }
 
-/* WIDGET CATEGORIES DROPDOWN */
 
-.widget-categories-dropdown {}
 
 /* WIDGET ARCHIVES */
-
-.widget-archives {}
 
 .widget-archives ul {
     margin-bottom: 0;
@@ -7153,11 +7136,9 @@ blockquote footer img {
 
 /* WIDGET ARCHIVES DROPDOWN */
 
-.widget-archives-dropdown {}
 
 /* WIDGET PAGES */
 
-.widget-pages {}
 
 .widget-pages ul {
     margin-bottom: 0;
@@ -7186,7 +7167,6 @@ blockquote footer img {
 
 /* WIDGET METADATA */
 
-.widget-metadata {}
 
 .widget-metadata ul {
     margin-bottom: 0;
@@ -7215,7 +7195,6 @@ blockquote footer img {
 
 /* WIDGET TAGS */
 
-.widget-tags {}
 
 .widget-tags a {
     padding: 8px 15px;
@@ -7229,7 +7208,6 @@ blockquote footer img {
 
 /* WIDGET NEWSLETTER */
 
-.widget-newsletter {}
 
 .widget-newsletter form {
     position: relative;
@@ -7262,11 +7240,9 @@ blockquote footer img {
     font-style: normal;
 }
 
-.widget-newsletter input[type="submit"] {}
 
 /* WIDGET RECENT POSTS */
 
-.widget-recent-posts {}
 
 .widget-recent-posts ul {
     list-style: none;
@@ -7340,7 +7316,6 @@ blockquote footer img {
 
 /* WIDGET LATEST POSTS */
 
-.widget-latest-posts {}
 
 .widget-latest-posts ul {
     padding-top: 10px;
@@ -7428,7 +7403,6 @@ blockquote footer img {
 
 /* WIDGET RECENT COMMENTS */
 
-.widget-recent-comments {}
 
 .widget-recent-comments ul {
     margin-bottom: 0;
@@ -7454,7 +7428,6 @@ blockquote footer img {
 
 /* WIDGET CALENDAR */
 
-.widget-calendar {}
 
 .widget-calendar table {
     width: 100%;
@@ -7491,7 +7464,6 @@ blockquote footer img {
 
 /* WIDGET FLICKR */
 
-.widget-flickr {}
 
 .flickr-photos {
     padding-top: 6px;
@@ -7536,7 +7508,6 @@ blockquote footer img {
 
 /* WIDGET INSTAGRAM */
 
-.widget-instagram {}
 
 #instafeed {
     padding-top: 10px;
@@ -7573,8 +7544,6 @@ blockquote footer img {
 
 /* WIDGET TWITTER */
 
-.widget-twitter {}
-
 .tweets-list ul {
     margin-bottom: 0;
     list-style: none;
@@ -7593,8 +7562,6 @@ blockquote footer img {
 }
 
 /* WIDGET CONTACT */
-
-.widget-contact {}
 
 .widget-contact ul {
     margin-bottom: 0;
@@ -7646,8 +7613,6 @@ blockquote footer img {
 }
 
 /* WIDGET SOCIAL */
-
-.widget-social {}
 
 .widget-social .social-media {
     margin-bottom: 0;
@@ -8352,14 +8317,6 @@ blockquote footer img {
 /***********************************************************************************
  *  - SEARCH
  ***********************************************************************************/
-
-.menu li.search {}
-
-.menu li.search a {}
-
-.menu li.search a:hover,
-.menu li.search.sfHover a {}
-
 #recent-scholars,
 #search-form-container {
     display: none;
@@ -8757,8 +8714,6 @@ blockquote footer img {
 /***********************************************************************************
  *  + FOOTER CONTAINER
  ***********************************************************************************/
-
-#footer-container {}
 
 /***********************************************************************************
  *  - FOOTER
@@ -9527,7 +9482,6 @@ blockquote footer img {
 
 /* STYLE 3 */
 
-.service-box.style-3 {}
 
 .service-box.style-3 h6 {
     padding-top: 12px;
@@ -10882,6 +10836,7 @@ blockquote footer img {
 
 #scrollbar_style::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     background-color: #F5F5F5;
 }
@@ -10894,6 +10849,7 @@ blockquote footer img {
 #scrollbar_style::-webkit-scrollbar-thumb {
     border-radius: 10px;
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
     background-color: #627077;
 }
 
@@ -12550,9 +12506,6 @@ input:checked+.slide-container .nav label {
         padding-top: 15px;
     }
 
-    .service-box.style-5 h5 {
-        /*margin-bottom: 30px*/
-    }
 }
 
 .service-box.style-5 a:hover {
@@ -13596,10 +13549,6 @@ input[type="button"]:hover {
 
 /* panel-group new design */
 /* use accordion-2 id with .panel-group in order to use this component */
-.panel-group#accordion-2 {
-    /* background: #f1f1f1 */
-
-}
 
 .panel-group#accordion-2 .panel {
     background: #f1f1f1;
